@@ -4,7 +4,7 @@ function update_deep_inner (obj, path_f_rev) {
     const res = update_deep_inner(obj[path1], path_f_rev)
     const t = {}
     t[path1] = res
-    return object.assign({}, obj, t)
+    return Object.assign({}, obj, t)
   }
   if (path_f_rev.length == 1) {
     return path_f_rev[0](obj)
