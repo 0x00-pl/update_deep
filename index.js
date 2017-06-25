@@ -16,4 +16,4 @@ function update_deep (obj, path_f) {
   return update_deep_inner(obj, path_f.reverse())
 }
 
-export default update_deep
+module.exports =  update_deep
