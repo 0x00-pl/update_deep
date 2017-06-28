@@ -1,10 +1,10 @@
 {
   "name": "update_deep",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "update value in deep map",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --reporter spec"
   },
   "repository": {
     "type": "git",
@@ -14,5 +14,9 @@
     "Object.assign"
   ],
   "author": "pl",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2"
+  }
 }
